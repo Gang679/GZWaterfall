@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  GZShop.m
 //  GZWaterfall
 //
 //  Created by xinshijie on 17/3/1.
 //  Copyright © 2017年 Mr.quan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GZShop.h"
 
-@interface ViewController : UIViewController
+@implementation GZShop
 
 @end
-

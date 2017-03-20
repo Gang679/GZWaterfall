@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GZFistViewController.h
 //  GZWaterfall
 //
 //  Created by xinshijie on 17/3/1.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GZFistViewController : UIViewController
 
 @end
-

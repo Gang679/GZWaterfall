@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GZShopCell.h
 //  GZWaterfall
 //
 //  Created by xinshijie on 17/3/1.
@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GZShop;
 
-@interface ViewController : UIViewController
+@interface GZShopCell : UICollectionViewCell
+
+@property (nonatomic, strong) GZShop *shop;
 
 @end
-
