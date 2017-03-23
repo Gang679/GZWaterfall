@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D300A031E83AFCB00620DA3 /* GZThreeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D300A021E83AFCB00620DA3 /* GZThreeLayout.m */; };
+		4D300A061E83AFFD00620DA3 /* GZThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D300A051E83AFFD00620DA3 /* GZThreeViewController.m */; };
 		4D8F31BD1E666CB700CDCCF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F31BC1E666CB700CDCCF5 /* main.m */; };
 		4D8F31C01E666CB700CDCCF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F31BF1E666CB700CDCCF5 /* AppDelegate.m */; };
 		4D8F31C31E666CB700CDCCF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F31C21E666CB700CDCCF5 /* ViewController.m */; };
@@ -76,6 +78,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D300A011E83AFCB00620DA3 /* GZThreeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZThreeLayout.h; sourceTree = "<group>"; };
+		4D300A021E83AFCB00620DA3 /* GZThreeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZThreeLayout.m; sourceTree = "<group>"; };
+		4D300A041E83AFFD00620DA3 /* GZThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZThreeViewController.h; sourceTree = "<group>"; };
+		4D300A051E83AFFD00620DA3 /* GZThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZThreeViewController.m; sourceTree = "<group>"; };
 		4D8F31B81E666CB700CDCCF5 /* GZWaterfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZWaterfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8F31BC1E666CB700CDCCF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D8F31BE1E666CB700CDCCF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,6 +248,8 @@
 				4D8F31D31E6682DA00CDCCF5 /* GZViewController.m */,
 				4D8F31EA1E668ACD00CDCCF5 /* GZFistViewController.h */,
 				4D8F31EB1E668ACD00CDCCF5 /* GZFistViewController.m */,
+				4D300A041E83AFFD00620DA3 /* GZThreeViewController.h */,
+				4D300A051E83AFFD00620DA3 /* GZThreeViewController.m */,
 				4D8F31C41E666CB700CDCCF5 /* Main.storyboard */,
 				4D8F31C71E666CB700CDCCF5 /* Assets.xcassets */,
 				4D8F31C91E666CB700CDCCF5 /* LaunchScreen.storyboard */,
@@ -265,6 +273,8 @@
 		4D8F31D81E66842C00CDCCF5 /* GZLayout */ = {
 			isa = PBXGroup;
 			children = (
+				4D300A011E83AFCB00620DA3 /* GZThreeLayout.h */,
+				4D300A021E83AFCB00620DA3 /* GZThreeLayout.m */,
 				4D8F31D51E66842300CDCCF5 /* GZLayout.h */,
 				4D8F31D61E66842300CDCCF5 /* GZLayout.m */,
 				4D911ED21E7F87EB00281D40 /* GZFallsLayout.h */,
@@ -618,6 +628,7 @@
 				4D8F31C01E666CB700CDCCF5 /* AppDelegate.m in Sources */,
 				4D911F651E7F88EA00281D40 /* SDWebImageCompat.m in Sources */,
 				4D911F511E7F88EA00281D40 /* MJRefreshHeader.m in Sources */,
+				4D300A061E83AFFD00620DA3 /* GZThreeViewController.m in Sources */,
 				4D911F461E7F88EA00281D40 /* NSObject+MJClass.m in Sources */,
 				4D911F5A1E7F88EA00281D40 /* MJRefreshStateHeader.m in Sources */,
 				4D911F571E7F88EA00281D40 /* MJRefreshBackStateFooter.m in Sources */,
@@ -625,6 +636,7 @@
 				4D911F6A1E7F88EA00281D40 /* SDWebImagePrefetcher.m in Sources */,
 				4D8F31D71E66842300CDCCF5 /* GZLayout.m in Sources */,
 				4D8F31BD1E666CB700CDCCF5 /* main.m in Sources */,
+				4D300A031E83AFCB00620DA3 /* GZThreeLayout.m in Sources */,
 				4D911F6F1E7F88EA00281D40 /* UIImageView+WebCache.m in Sources */,
 				4D911F641E7F88EA00281D40 /* SDImageCache.m in Sources */,
 				4D911F621E7F88EA00281D40 /* README.md in Sources */,

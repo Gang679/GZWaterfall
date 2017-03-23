@@ -1,14 +1,15 @@
 //
 //  ViewController.m
-//  GZWaterfall
+//  GZWaterfalls
 //
-//  Created by xinshijie on 17/3/1.
+//  Created by xinshijie on 17/3/21.
 //  Copyright © 2017年 Mr.quan. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "GZViewController.h"
 #import "GZFistViewController.h"
+#import "GZThreeViewController.h"
 
 @interface ViewController ()
 
@@ -37,6 +38,13 @@
     [SecondButton setTitle:@"规则瀑布流" forState:UIControlStateNormal];
     [SecondButton addTarget:self action:@selector(SecondButtonClick) forControlEvents:UIControlEventTouchUpInside];
     
+    
+    UIButton *ThreeBUtton = [[UIButton alloc]initWithFrame:CGRectMake(100, 300, self.view.bounds.size.width - 200, 40)];
+    [self.view addSubview:ThreeBUtton];
+    ThreeBUtton.backgroundColor = [UIColor orangeColor];
+    [ThreeBUtton setTitle:@"简单两排瀑布流" forState:UIControlStateNormal];
+    [ThreeBUtton addTarget:self action:@selector(ThreeButtonClick) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 -(void)FirstButtonClick{
@@ -48,10 +56,15 @@
     GZViewController *GZ = [[GZViewController alloc]init];
     [self.navigationController pushViewController:GZ animated:YES];
 }
+
+-(void)ThreeButtonClick{
+    GZThreeViewController *GZ = [[GZThreeViewController alloc]init];
+    [self.navigationController pushViewController:GZ animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

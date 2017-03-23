@@ -69,9 +69,9 @@ static const UIEdgeInsets JKRDefaultUIEdgeInsets = {10, 10, 10, 10};      ///< �
 {
     UICollectionViewLayoutAttributes *attrs = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     
-    // collectionView的宽度
+    // 每个collectionView的宽度
     CGFloat collectionViewW = self.collectionView.frame.size.width;
-    // cell的宽度
+    // 每个cell的宽度
     CGFloat w = (collectionViewW - self.edgeInsets.left - self.edgeInsets.right -
                  self.columnMargin * (self.columnCount - 1)) / self.columnCount;
     // cell的高度
@@ -102,7 +102,6 @@ static const UIEdgeInsets JKRDefaultUIEdgeInsets = {10, 10, 10, 10};      ///< �
     
     // 随机数，用来随机生成大尺寸cell
     NSUInteger randomOfWhetherDouble = arc4random() % 100;
-    
     // 判断是否放大
     if (destColumn < self.columnCount - 1                               // 放大的列数不能是最后一列（最后一列方法超出屏幕）
         && _noneDoubleTime >= 1                                         // 如果前个cell有放大就不放大，防止连续出现两个放大
