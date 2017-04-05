@@ -21,3 +21,5 @@ GZWaterfall任何形式的瀑布流
 ![GZ6790](https://github.com/Gang679/GZWaterfall/blob/master/屏幕快照%202017-03-20%2014.08.28.png)
 ![GZ6790](https://github.com/Gang679/GZWaterfall/blob/master/屏幕快照%202017-03-20%2014.08.42.png)
 ![GZ6790](https://github.com/Gang679/GZWaterfall/blob/master/屏幕快照%202017-03-20%2014.08.54.png)
+2017-4-5
+###添加了环形  立方形  球形 瀑布流 
