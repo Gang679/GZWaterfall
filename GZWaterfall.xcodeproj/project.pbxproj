@@ -75,6 +75,14 @@
 		4D911F771E7F892400281D40 /* GZShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D911F741E7F892400281D40 /* GZShop.m */; };
 		4D911F781E7F892400281D40 /* GZShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D911F761E7F892400281D40 /* GZShopCell.m */; };
 		4D911F7A1E7F893E00281D40 /* GZShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D911F791E7F893E00281D40 /* GZShopCell.xib */; };
+		4DE083131E94F326007382F0 /* BallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE083041E94F326007382F0 /* BallFlowLayout.m */; };
+		4DE083141E94F326007382F0 /* BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE083061E94F326007382F0 /* BallViewController.m */; };
+		4DE083151E94F326007382F0 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE083081E94F326007382F0 /* CircleLayout.m */; };
+		4DE083161E94F326007382F0 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0830A1E94F326007382F0 /* CircleViewController.m */; };
+		4DE083171E94F326007382F0 /* PickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0830C1E94F326007382F0 /* PickViewController.m */; };
+		4DE083181E94F326007382F0 /* PickViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0830E1E94F326007382F0 /* PickViewLayout.m */; };
+		4DE083191E94F326007382F0 /* WaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE083101E94F326007382F0 /* WaterFallController.m */; };
+		4DE0831A1E94F326007382F0 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE083121E94F326007382F0 /* WaterFallFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +214,22 @@
 		4D911F751E7F892400281D40 /* GZShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZShopCell.h; sourceTree = "<group>"; };
 		4D911F761E7F892400281D40 /* GZShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZShopCell.m; sourceTree = "<group>"; };
 		4D911F791E7F893E00281D40 /* GZShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZShopCell.xib; sourceTree = "<group>"; };
+		4DE083031E94F326007382F0 /* BallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallFlowLayout.h; sourceTree = "<group>"; };
+		4DE083041E94F326007382F0 /* BallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallFlowLayout.m; sourceTree = "<group>"; };
+		4DE083051E94F326007382F0 /* BallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallViewController.h; sourceTree = "<group>"; };
+		4DE083061E94F326007382F0 /* BallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallViewController.m; sourceTree = "<group>"; };
+		4DE083071E94F326007382F0 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		4DE083081E94F326007382F0 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		4DE083091E94F326007382F0 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		4DE0830A1E94F326007382F0 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		4DE0830B1E94F326007382F0 /* PickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickViewController.h; sourceTree = "<group>"; };
+		4DE0830C1E94F326007382F0 /* PickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickViewController.m; sourceTree = "<group>"; };
+		4DE0830D1E94F326007382F0 /* PickViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickViewLayout.h; sourceTree = "<group>"; };
+		4DE0830E1E94F326007382F0 /* PickViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickViewLayout.m; sourceTree = "<group>"; };
+		4DE0830F1E94F326007382F0 /* WaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallController.h; sourceTree = "<group>"; };
+		4DE083101E94F326007382F0 /* WaterFallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallController.m; sourceTree = "<group>"; };
+		4DE083111E94F326007382F0 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		4DE083121E94F326007382F0 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +274,22 @@
 				4D8F31EB1E668ACD00CDCCF5 /* GZFistViewController.m */,
 				4D300A041E83AFFD00620DA3 /* GZThreeViewController.h */,
 				4D300A051E83AFFD00620DA3 /* GZThreeViewController.m */,
+				4DE083031E94F326007382F0 /* BallFlowLayout.h */,
+				4DE083041E94F326007382F0 /* BallFlowLayout.m */,
+				4DE083051E94F326007382F0 /* BallViewController.h */,
+				4DE083061E94F326007382F0 /* BallViewController.m */,
+				4DE083071E94F326007382F0 /* CircleLayout.h */,
+				4DE083081E94F326007382F0 /* CircleLayout.m */,
+				4DE083091E94F326007382F0 /* CircleViewController.h */,
+				4DE0830A1E94F326007382F0 /* CircleViewController.m */,
+				4DE0830B1E94F326007382F0 /* PickViewController.h */,
+				4DE0830C1E94F326007382F0 /* PickViewController.m */,
+				4DE0830D1E94F326007382F0 /* PickViewLayout.h */,
+				4DE0830E1E94F326007382F0 /* PickViewLayout.m */,
+				4DE0830F1E94F326007382F0 /* WaterFallController.h */,
+				4DE083101E94F326007382F0 /* WaterFallController.m */,
+				4DE083111E94F326007382F0 /* WaterFallFlowLayout.h */,
+				4DE083121E94F326007382F0 /* WaterFallFlowLayout.m */,
 				4D8F31C41E666CB700CDCCF5 /* Main.storyboard */,
 				4D8F31C71E666CB700CDCCF5 /* Assets.xcassets */,
 				4D8F31C91E666CB700CDCCF5 /* LaunchScreen.storyboard */,
@@ -536,6 +576,7 @@
 				TargetAttributes = {
 					4D8F31B71E666CB700CDCCF5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 57233LSM9E;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -594,6 +635,7 @@
 				4D911F411E7F88EA00281D40 /* MJExtensionConst.m in Sources */,
 				4D911F681E7F88EA00281D40 /* SDWebImageDownloaderOperation.m in Sources */,
 				4D911F4B1E7F88EA00281D40 /* README.md in Sources */,
+				4DE083141E94F326007382F0 /* BallViewController.m in Sources */,
 				4D911F661E7F88EA00281D40 /* SDWebImageDecoder.m in Sources */,
 				4D911F531E7F88EA00281D40 /* MJRefreshAutoNormalFooter.m in Sources */,
 				4D911F441E7F88EA00281D40 /* MJPropertyKey.m in Sources */,
@@ -605,7 +647,10 @@
 				4D911F6B1E7F88EA00281D40 /* UIButton+WebCache.m in Sources */,
 				4D911F4F1E7F88EA00281D40 /* MJRefreshComponent.m in Sources */,
 				4D911F591E7F88EA00281D40 /* MJRefreshNormalHeader.m in Sources */,
+				4DE083191E94F326007382F0 /* WaterFallController.m in Sources */,
 				4D911F421E7F88EA00281D40 /* MJFoundation.m in Sources */,
+				4DE083161E94F326007382F0 /* CircleViewController.m in Sources */,
+				4DE0831A1E94F326007382F0 /* WaterFallFlowLayout.m in Sources */,
 				4D911F4A1E7F88EA00281D40 /* NSString+MJExtension.m in Sources */,
 				4D911F551E7F88EA00281D40 /* MJRefreshBackGifFooter.m in Sources */,
 				4D911F4D1E7F88EA00281D40 /* MJRefreshAutoFooter.m in Sources */,
@@ -620,18 +665,21 @@
 				4D911F541E7F88EA00281D40 /* MJRefreshAutoStateFooter.m in Sources */,
 				4D911F6C1E7F88EA00281D40 /* UIImage+GIF.m in Sources */,
 				4D911ED41E7F87EB00281D40 /* GZFallsLayout.m in Sources */,
+				4DE083181E94F326007382F0 /* PickViewLayout.m in Sources */,
 				4D911F771E7F892400281D40 /* GZShop.m in Sources */,
 				4D911F701E7F88EA00281D40 /* UIView+WebCacheOperation.m in Sources */,
 				4D911F691E7F88EA00281D40 /* SDWebImageManager.m in Sources */,
 				4D911F491E7F88EA00281D40 /* NSObject+MJProperty.m in Sources */,
 				4D8F31D41E6682DA00CDCCF5 /* GZViewController.m in Sources */,
 				4D8F31C01E666CB700CDCCF5 /* AppDelegate.m in Sources */,
+				4DE083131E94F326007382F0 /* BallFlowLayout.m in Sources */,
 				4D911F651E7F88EA00281D40 /* SDWebImageCompat.m in Sources */,
 				4D911F511E7F88EA00281D40 /* MJRefreshHeader.m in Sources */,
 				4D300A061E83AFFD00620DA3 /* GZThreeViewController.m in Sources */,
 				4D911F461E7F88EA00281D40 /* NSObject+MJClass.m in Sources */,
 				4D911F5A1E7F88EA00281D40 /* MJRefreshStateHeader.m in Sources */,
 				4D911F571E7F88EA00281D40 /* MJRefreshBackStateFooter.m in Sources */,
+				4DE083171E94F326007382F0 /* PickViewController.m in Sources */,
 				4D911F5C1E7F88EA00281D40 /* MJRefreshConst.m in Sources */,
 				4D911F6A1E7F88EA00281D40 /* SDWebImagePrefetcher.m in Sources */,
 				4D8F31D71E66842300CDCCF5 /* GZLayout.m in Sources */,
@@ -641,6 +689,7 @@
 				4D911F641E7F88EA00281D40 /* SDImageCache.m in Sources */,
 				4D911F621E7F88EA00281D40 /* README.md in Sources */,
 				4D911F501E7F88EA00281D40 /* MJRefreshFooter.m in Sources */,
+				4DE083151E94F326007382F0 /* CircleLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +807,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57233LSM9E;
 				INFOPLIST_FILE = GZWaterfall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinshijie.cn.GZWaterfall;
@@ -769,6 +819,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57233LSM9E;
 				INFOPLIST_FILE = GZWaterfall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinshijie.cn.GZWaterfall;
